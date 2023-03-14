@@ -1,0 +1,29 @@
+---
+compiled_package_info:
+  package_name: calculator
+  address_alias_instantiation:
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
+    calc_addr: 849668cc2d60de84ab52a35fdf4951eae9aea0457de965687fc68e74855f6765
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: EF7E6EE45AF277B3D358D13F718F5BD92DD9EABC4C0D40B8072BCC5F5DFACF35
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses:
+      calc_addr: 849668cc2d60de84ab52a35fdf4951eae9aea0457de965687fc68e74855f6765
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - AptosFramework
+  - AptosStdlib
+  - MoveStdlib

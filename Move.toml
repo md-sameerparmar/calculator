@@ -1,0 +1,12 @@
+[package]
+name = "calculator"
+version = "0.0.0"
+
+[addresses]
+std =  "0x1"
+calc_addr = "_"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
