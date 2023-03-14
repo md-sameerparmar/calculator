@@ -39,7 +39,7 @@ module calc_addr::Calculator{
 
 
     #[test(account = @0x1)]
-    public entry fun test_add(){
+    public entry fun test_operations(){
         let add_res = get_add(5,5);
         let sub_res = get_sub(5,5);
         let mul_res = get_mul(5,5);
